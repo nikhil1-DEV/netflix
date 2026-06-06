@@ -191,10 +191,11 @@ section.first>div :nth-child(2) {
     padding: 34px;
 }
 
-.faqbox.hover {
-    background-color: #414141;
-    color: white;
+.faqbox:hover {
+    transform: translateX(10px);
+    background-color: rgb(80, 80, 80);
 }
+
 
 .faqbox svg {
     filter: invert(1);
